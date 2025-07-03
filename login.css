@@ -1,0 +1,139 @@
+/* Login Page Styles */
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  max-width: 400px;
+  min-height: 500px; /* Extended height */
+  margin: 80px auto 100px;
+  padding: 2.5rem 2rem 3rem;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.login-container .logo {
+  font-size: 2.5rem;
+  color: #e60023;
+  margin-bottom: 1rem;
+}
+
+.login-container h2 {
+  margin-bottom: 1.5rem;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+}
+
+.login-container input:focus {
+  outline: none;
+  border-color: #e60023;
+}
+
+.login-container button {
+  width: 100%;
+  background-color: #e60023;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.login-container button:hover {
+  background-color: #cc001f;
+}
+
+.login-container .signup {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.login-container .signup a {
+  color: #e60023;
+  text-decoration: none;
+}
+
+.login-container .signup a:hover {
+  text-decoration: underline;
+}
+
+.social-login {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+  color: white;
+}
+
+.social-btn.google {
+  background-color: #db4437;
+}
+
+.social-btn.google:hover {
+  background-color: #c33d2e;
+}
+
+.social-btn.instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.social-btn.instagram:hover {
+  filter: brightness(0.9);
+}
+
+.social-btn i {
+  font-size: 1.2rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+nav a.logo {
+  font-size: 30px;
+  color: #E60023;
+  text-decoration: none;
+}
